@@ -15,7 +15,7 @@ describe('App', ()=>{
     expect(roomList).toHaveLength(1);
   });
 
-  it('', ()=>{
+  it('has state', ()=>{
     const appWrapper = shallow(<App/>);
     const appState = appWrapper.state();
 
