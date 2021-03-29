@@ -1,12 +1,14 @@
-
+import React,{Component} from 'react';
 import RoomList from "./components/RoomList/RoomList";
 
-function App() {
-  return (
-    <div className="App">
-      <RoomList/>
-    </div>
-  );
+class App extends Component{
+  render(){
+    return (
+        <div className="App">
+          <RoomList/>
+        </div>
+    );
+  }
 }
 
 export default App;
