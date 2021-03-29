@@ -18,7 +18,7 @@ describe('Room List',()=>{
         expect(roomListUl).toHaveLength(1);
     });
 
-    it('', () => {
+    it('renders no li elements when no room exist', () => {
         const roomListItems = roomListWrapper.find('li');
         
         expect(roomListItems).toHaveLength(0);
