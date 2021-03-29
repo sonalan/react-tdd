@@ -18,5 +18,10 @@ describe('Room List',()=>{
         expect(roomListUl).toHaveLength(1);
     });
 
+    it('', () => {
+        const roomListItems = roomListWrapper.find('li');
+        
+        expect(roomListItems).toHaveLength(0);
+    })
 
 })
