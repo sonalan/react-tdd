@@ -7,7 +7,7 @@ describe('App', ()=>{
   let appWrapper;
 
   beforeAll(()=>{
-      const appWrapper = shallow(<App/>);
+    appWrapper = shallow(<App/>);
   });
 
   /*
