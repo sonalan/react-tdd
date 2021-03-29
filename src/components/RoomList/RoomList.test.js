@@ -10,7 +10,13 @@ describe('Room List',()=>{
 
     it('renders without crashing',()=>{
         shallow(<RoomList/>);
-    })
+    });
+
+    it('', ()=>{
+        const roomListUl = roomListWrapper.find('ul');
+
+        expect(roomListUl).toHaveLength(1);
+    });
 
 
 })
