@@ -8,7 +8,7 @@ describe('App', ()=>{
     const appWrapper = shallow(<App/>);
   })
 
-  it('', ()=>{
+  it('renders a room list ', ()=>{
     const appWrapper = shallow(<App/>);
     const roomList = appWrapper.find(RoomList);
 
