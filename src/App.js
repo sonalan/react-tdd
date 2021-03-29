@@ -2,8 +2,8 @@ import React,{Component} from 'react';
 import RoomList from "./components/RoomList/RoomList";
 
 class App extends Component{
-  state = {}
-  
+  state = { rooms:[]}
+
   render(){
     return (
         <div className="App">
