@@ -10,6 +10,8 @@ describe('App', ()=>{
 
   it('', ()=>{
     const appWrapper = shallow(<App/>);
-    appWrapper.find(RoomList);
+    const roomList = appWrapper.find(RoomList);
+
+    expect(roomList).toHaveLength(1);
   });
 });
