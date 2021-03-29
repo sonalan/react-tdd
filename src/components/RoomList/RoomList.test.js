@@ -12,7 +12,7 @@ describe('Room List',()=>{
         shallow(<RoomList/>);
     });
 
-    it('', ()=>{
+    it('renders a ul element', ()=>{
         const roomListUl = roomListWrapper.find('ul');
 
         expect(roomListUl).toHaveLength(1);
