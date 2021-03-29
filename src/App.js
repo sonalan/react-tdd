@@ -1,5 +1,4 @@
-import logo from './logo.svg';
-import './App.css';
+
 import RoomList from "./components/RoomList/RoomList";
 
 function App() {
