@@ -7,7 +7,7 @@ class App extends Component{
   render(){
     return (
         <div className="App">
-          <RoomList/>
+          <RoomList rooms={this.state.rooms}/>
         </div>
     );
   }
