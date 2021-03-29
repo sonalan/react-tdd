@@ -28,7 +28,7 @@ describe('App', ()=>{
     expect(appState).not.toBeNull();
   })
 
-  it('', ()=>{
+  it('has rooms property on state', ()=>{
     const appState = appWrapper.state();
 
     expect(appState.rooms).toBeDefined();
