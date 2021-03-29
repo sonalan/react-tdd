@@ -34,7 +34,7 @@ describe('App', ()=>{
     expect(appState.rooms).toBeDefined();
   });
 
-  it('', ()=>{
+  it('Passes rooms property of state to RoomsList as a prop ', ()=>{
     const roomList = appWrapper.find(RoomList);
 
     expect(roomList.props().rooms).toEqual(appWrapper.state().rooms);
