@@ -4,6 +4,12 @@ import {shallow} from "enzyme";
 import RoomList from "./components/RoomList/RoomList";
 
 describe('App', ()=>{
+  let appWrapper;
+
+  beforeAll(()=>{
+      const appWrapper = shallow(<App/>);
+  });
+
   it('renders without crashing', ()=>{
     const appWrapper = shallow(<App/>);
   })
