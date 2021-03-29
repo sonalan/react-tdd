@@ -26,11 +26,17 @@ describe('App', ()=>{
     const appState = appWrapper.state();
 
     expect(appState).not.toBeNull();
-  })
+  });
 
   it('has rooms property on state', ()=>{
     const appState = appWrapper.state();
 
     expect(appState.rooms).toBeDefined();
+  });
+
+  it('', ()=>{
+    const roomList = appWrapper.find(RoomList);
+
+    expect(roomList.props().rooms).toEqual(appWrapper.state().rooms);
   })
 });
