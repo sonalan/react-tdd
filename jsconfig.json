@@ -1,0 +1,7 @@
+{
+    "typeAcqusition":{
+        "include":[
+            "jest"
+        ]
+    }
+}
