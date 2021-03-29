@@ -14,4 +14,9 @@ describe('App', ()=>{
 
     expect(roomList).toHaveLength(1);
   });
+
+  it('', ()=>{
+    const appWrapper = shallow(<App/>);
+    const appState = appWrapper.state();
+  })
 });
