@@ -1,3 +1,11 @@
+# Sample React app covers tdd approach
+##
+ Step 1: Create a test that fails
+ 
+ Step 2: Write Code that makes pass the test
+ 
+ Step 3 Refactor code for cleaning up
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
