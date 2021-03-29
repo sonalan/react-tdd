@@ -6,4 +6,9 @@ describe('App', ()=>{
   it('renders without crashing', ()=>{
     const appWrapper = shallow(<App/>);
   })
+
+  it('', ()=>{
+    const appWrapper = shallow(<App/>);
+    appWrapper.find(RoomList);
+  });
 });
