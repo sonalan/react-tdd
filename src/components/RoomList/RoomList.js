@@ -1,10 +1,8 @@
 import React from 'react';
-export default function RoomList() {
+export default function RoomList({rooms}) {
     return (
         <ul>
-            <li>Room 1</li>
-            <li>Room 2</li>
-            <li>Room 3</li>
+            {rooms&&rooms.map(room=>{<li>{room.name}</li>})}
         </ul>
     )
 }
